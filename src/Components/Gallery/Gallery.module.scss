@@ -12,7 +12,7 @@
       gap: 25px;
     }
     @media screen and (min-width: 1200px) {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 35px;
     }
   }
@@ -27,9 +27,12 @@
     position: relative;
     box-shadow: 1px 2px 2px var(--accent-color), 0px 4px 4px var(--accent-color),
       0px 1px 1px var(--accent-color);
-      @media screen and (min-width: 768px) {
-        height: 250px;
-      }
+    @media screen and (min-width: 768px) {
+      height: 250px;
+    }
+    @media screen and (min-width: 768px) {
+      height: 350px;
+    }
   }
   &__item:hover {
     box-shadow: 1px 4px 6px var(--shadow-color), 0px 4px 4px var(--shadow-color),
@@ -79,6 +82,20 @@
     margin-top: -300px;
     @media screen and (min-width: 768px) {
       margin-top: 0;
+    }
+  }
+
+  &__btn_less {
+    margin-top: 15px;
+    margin-right: 20px;
+    @media screen and (min-width: 768px) {
+      margin-top: 25px;
+    }
+  }
+  &__btn_more {
+    margin-top: 15px;
+    @media screen and (min-width: 768px) {
+      margin-top: 25px;
     }
   }
 }
