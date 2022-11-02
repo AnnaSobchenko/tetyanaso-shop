@@ -1,0 +1,9 @@
+.mainpage {
+  min-height: calc(100vh - 75px - 85px);
+  @media screen and (min-width: 767px) {
+    min-height: calc(100vh - 75px - 125px);
+  }
+  &__test {
+    height: 1000px;
+  }
+}

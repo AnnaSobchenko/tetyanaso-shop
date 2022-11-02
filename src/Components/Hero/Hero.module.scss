@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  &__texts {
+    margin-left:5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__textname {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    @media screen and (min-width: 576px) {
+      font-size: 1.5rem;
+      line-height: 1.8;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 2.5rem;
+      line-height: 2;
+    }
+  }
+
+  img {
+    width: 150px;
+    @media screen and (min-width: 768px) {
+      width: 250px;
+    }
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    @media screen and (min-width: 768px) {
+      font-size: 1.8rem;
+      line-height: 1.6;
+    }
+  }
+}

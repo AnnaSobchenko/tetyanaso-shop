@@ -1,0 +1,17 @@
+.contacts {
+  padding: 20px;
+  @media screen and (min-width: 767px) {
+    padding: 40px;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__icon {
+    margin-right: 20px;
+    display: flex;
+    fill: var(--accent-color);
+  }
+}
