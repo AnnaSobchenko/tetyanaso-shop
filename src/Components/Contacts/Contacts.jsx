@@ -4,7 +4,7 @@ import Icons from "../../images/symbol-defs.svg";
 const Contacts = () => {
   return (
     <div className={`container ${s.contacts}`} id="contacts">
-      <h2>Contacts</h2>
+      <h2 className="visually-hidden">Contacts</h2>
 
       <div className={s.contacts__links}>
         <a
@@ -13,7 +13,9 @@ const Contacts = () => {
           target="_blank"
           href="https://t.me/HannaSobchenko"
         >
-          
+          <svg className={s.contacts__icon} width="35px" height="35px">
+            <use xlinkHref={`${Icons}#icon-telegram`} />
+          </svg>
           <p>Telegram</p>
         </a>
         <a

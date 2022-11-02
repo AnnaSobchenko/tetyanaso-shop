@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1420c78c.css",
+    "main.js": "/static/js/main.45edf05c.js",
+    "static/media/lorem-ipsum-024.png": "/static/media/lorem-ipsum-024.a8605abf72c3764785ea.png",
+    "static/media/lorem-ipsum-020.png": "/static/media/lorem-ipsum-020.748851e23b1b82886120.png",
+    "static/media/lorem-ipsum-021.png": "/static/media/lorem-ipsum-021.12d6aeb16818ef4696cd.png",
+    "static/media/lorem-ipsum-023.png": "/static/media/lorem-ipsum-023.2acb41f78f6cc2e08611.png",
+    "static/media/lorem-ipsum-022.png": "/static/media/lorem-ipsum-022.c4736a15f3c686c2b7f9.png",
+    "static/media/lorem-ipsum-009.jpg": "/static/media/lorem-ipsum-009.b16e538108a388f8614d.jpg",
+    "static/media/lorem-ipsum-005.jpg": "/static/media/lorem-ipsum-005.49ab9272348889cdc577.jpg",
+    "static/media/lorem-ipsum-004.jpg": "/static/media/lorem-ipsum-004.016db64d4d5ee0aa7039.jpg",
+    "static/media/lorem-ipsum-001.jpg": "/static/media/lorem-ipsum-001.eb591ea3acbc9aff0f54.jpg",
+    "static/media/lorem-ipsum-011.jpg": "/static/media/lorem-ipsum-011.943751425d5fbf1fa78a.jpg",
+    "static/media/lorem-ipsum-016.png": "/static/media/lorem-ipsum-016.80b453920263c1481e11.png",
+    "static/media/lorem-ipsum-007.jpg": "/static/media/lorem-ipsum-007.68d0296327eac935b773.jpg",
+    "static/media/lorem-ipsum-002.jpg": "/static/media/lorem-ipsum-002.3e8d2451be805ada53b0.jpg",
+    "static/media/lorem-ipsum-008.jpg": "/static/media/lorem-ipsum-008.fc42ddeb1b8330a1feb7.jpg",
+    "static/media/lorem-ipsum-010.jpg": "/static/media/lorem-ipsum-010.1a33b32aec41bb00f958.jpg",
+    "static/media/lorem-ipsum-003.jpg": "/static/media/lorem-ipsum-003.1b8060a9c54c4571c9b7.jpg",
+    "static/media/lorem-ipsum-015.png": "/static/media/lorem-ipsum-015.8c460954589f6fe9fe1b.png",
+    "static/media/lorem-ipsum-006.jpg": "/static/media/lorem-ipsum-006.7265f01be2c6af304901.jpg",
+    "static/media/lorem-ipsum-017.png": "/static/media/lorem-ipsum-017.d51ac2c473c2fc749597.png",
+    "static/media/hero.png": "/static/media/hero.7d09f49d7c965555a6c9.png",
+    "static/media/lorem-ipsum-018.png": "/static/media/lorem-ipsum-018.9b2640023de178866b37.png",
+    "static/media/lorem-ipsum-013.png": "/static/media/lorem-ipsum-013.d2a285eef41e7a26b36b.png",
+    "static/media/lorem-ipsum-014.png": "/static/media/lorem-ipsum-014.30348c04b5950950e383.png",
+    "static/media/lorem-ipsum-019.png": "/static/media/lorem-ipsum-019.8c65110c23446975859b.png",
+    "static/media/lorem-ipsum-012.JPG": "/static/media/lorem-ipsum-012.5423304ad8bc9747ce4d.JPG",
+    "static/media/symbol-defs.svg": "/static/media/symbol-defs.af7d6e7d10630a5cf95b606c72991817.svg",
+    "index.html": "/index.html",
+    "main.1420c78c.css.map": "/static/css/main.1420c78c.css.map",
+    "main.45edf05c.js.map": "/static/js/main.45edf05c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1420c78c.css",
+    "static/js/main.45edf05c.js"
+  ]
+}
