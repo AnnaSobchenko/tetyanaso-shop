@@ -4,19 +4,18 @@
     left: 0;
     height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color:var(--overlay-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
-  
+    z-index: 1000;  
   }
   
   .content {
-    background-color: #fff;
+    background-color:var(--primary-bg-color);
     padding: 20px;
     border-radius: 10px;
-    min-width: 300px;
+    min-width: 280px;
     max-width: 700px;
     width: 70vw;
     position: relative;
@@ -25,7 +24,7 @@
   // =========================================================
   
   .contentChange {
-    min-width: 300px;
+    min-width: 280px;
     max-width: 700px;
     position: relative;
   }

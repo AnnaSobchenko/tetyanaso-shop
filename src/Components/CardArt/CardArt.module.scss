@@ -11,35 +11,56 @@
   overflow: hidden;
   @media screen and (min-width: 576px) {
     width: 60vw;
-    }
+  }
   @media screen and (min-width: 768px) {
     width: 40vw;
-    }
+  }
 
-  &__artbox{
+  &__artbox {
     width: 80%;
     height: auto;
     @media screen and (min-width: 992px) {
-        width: 350px;
-        }
+      width: 350px;
+    }
   }
 
   &__paybtn {
     position: absolute;
     bottom: 20px;
     right: 40px;
-    img{
-        object-fit: cover;
+    img {
+      object-fit: cover;
     }
   }
 
-  &__lbl{
+  &__lbl {
     margin-right: 10px;
     border-radius: 5px;
     background: var(--accent-opacity-color);
     padding: 7.5px;
+    &:hover {
+      background: var(--accent-color);
+    }
   }
-  &__icon{
+  &__icon {
     fill: var(--third-text-color);
+  }
+  &__icon_close {
+    fill: var(--accent-opacity-color);
+    &:hover {
+      fill: var(--primary-text-color);
+    }
+  }
+  &__btn_close {
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    background-color: transparent;
+    @media screen and (min-width: 360px) {
+      top: 15px;
+      right: 10px;
+    }
   }
 }

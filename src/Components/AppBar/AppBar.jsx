@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import MediaQuery from "react-responsive";
 import s from "./AppBar.module.scss";
 import Icons from "../../images/symbol-defs.svg";
 
@@ -15,21 +16,25 @@ const AppBar = () => {
             </a>
           </div>
           <ul className={`nav nav-tabs`}>
-            <li className={s.header__item}>
-              <a className={s.header__link} href="/#gallery">
-                Gallery
-              </a>
-            </li>
+            <MediaQuery minWidth={768}>
+              <li className={s.header__item}>
+                <a className={s.header__link} href="/#gallery">
+                  Gallery
+                </a>
+              </li>
+            </MediaQuery>
             <li className={s.header__item}>
               <a className={s.header__link} href="/#services">
                 Services
               </a>
             </li>
+            <MediaQuery minWidth={768}>
             <li className={s.header__item}>
               <a className={s.header__link} href="/#contacts">
                 Contacts
               </a>
             </li>
+            </MediaQuery>
           </ul>
           <svg className={s.header__icon} width="45px" height="20px">
             <use xlinkHref={`${Icons}#icon-cart`} />

@@ -4,6 +4,7 @@
   --accent-color: #94473a;
   --accent-opacity-color: rgba(148, 71, 58, 0.8);
   --shadow-color: rgba(65, 40, 40, 0.2);
+  --overlay-color: rgba(0, 0, 0, 0.7);
   --primary-text-color: #141311;
   --secondary-text-color: #555555;
   --third-text-color: #ffffff;
@@ -38,7 +39,7 @@ a:active {
   outline: none;
 }
 
-img{
+img {
   margin: 0;
 }
 
