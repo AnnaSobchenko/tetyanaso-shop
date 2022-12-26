@@ -15,7 +15,7 @@ import productsReducer from "./products/productsSlice";
 
 
 const productsPersistConfig = {
-  key: "products",
+  key: "arts",
   storage,
 //   whitelist: [],
 };
@@ -27,7 +27,7 @@ const productsPersistedReducer = persistReducer(
 
 const store = configureStore({
   reducer: {    
-    products: productsPersistedReducer,
+    arts: productsPersistedReducer,
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({

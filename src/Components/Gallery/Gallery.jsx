@@ -1,16 +1,24 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
+import { getAllArts } from "../../redux/products/productsSelector";
 import CardArt from "../CardArt/CardArt";
 import Modal from "../Modal/Modal";
 import s from "./Gallery.module.scss";
 const uuid = require("uuid");
 
-const Gallery = ({ arts }) => {
+const Gallery = () => {
   const [num, setNum] = useState(6);
   const [isBtnMore, setIsBtnMore] = useState(true);
   const [isBtnLess, setIsBtnLess] = useState(false);
+
+  const arts = useSelector(getAllArts);
+
   let renderArts = [];
-  for (let i = 0; i < num; i++) {
-    renderArts.push(arts[i]);
+
+  if (Boolean(arts.length)) {
+    for (let i = 0; i < num; i++) {
+      renderArts.push(arts[i]);
+    }
   }
 
   const [modal, setModal] = useState({
